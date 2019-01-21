@@ -2,7 +2,7 @@
 
 This is a simple Golang program with propose of studies.
 
-What will be done herer:
+What will be done here:
 
 * Run a src code and see what it does;
 * Run some tests;
@@ -15,7 +15,7 @@ What will be done herer:
 
 ## No docker for you
 
-Sorry this is a simple example, so not much advanced stuffs herer.
+Sorry this is a simple example, so not much advanced stuffs here.
 
 # Running Test
 
