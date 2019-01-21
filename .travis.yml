@@ -10,7 +10,7 @@ env:
     - GO_FOR_RELEASE=1.11
 
 scripts:
-    - go test ./... -coverprofile=coverage.cov -covermode=atomic
+    - go test ./... -coverprofile=coverage.txt -covermode=atomic
 
 after_success:
     - bash <(curl -s https://codecov.io/bash)
