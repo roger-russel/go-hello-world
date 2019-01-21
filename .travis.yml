@@ -1,0 +1,16 @@
+language: go
+
+go:
+  - "1.11.x"
+
+env:
+  global:
+    - GOARCH=amd64
+    - GOOS=linux
+    - GO_FOR_RELEASE=1.11
+
+scripts:
+    - go test ./... -coverprofile=coverage.cov -covermode=atomic
+
+after_success:
+    - bash <(curl -s https://codecov.io/bash)
