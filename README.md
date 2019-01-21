@@ -1,5 +1,7 @@
 # Go Hello World
 
+[![Build Status](https://travis-ci.org/roger-russel/go-hello-world.svg?branch=master)](https://travis-ci.org/roger-russel/go-hello-world)
+
 This is a simple Golang program with propose of studies.
 
 What will be done here:
