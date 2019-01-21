@@ -30,10 +30,10 @@ To retrieve a nice coverage report, it's possible with `go tool cover`, see bell
 1. `go test ./... -coverprofile=./system.cov`
 2. `go tool cover -html=./system.cov`
 
-If want save the html result just add `-o coverage.html` at the end of secound command like this:
+If want save the html result just add `-o coverage.html` at the end of second command like this:
 
 `go tool cover -html=./system.cov -o coverage.html`
 
 # Bilding project
 
-`go build -o ./bin/hello ./cmd/hello/main.go`
+`go build -o ./build/hello ./cmd/hello/main.go`
