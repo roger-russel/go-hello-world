@@ -34,6 +34,6 @@ If want save the html result just add `-o coverage.html` at the end of second co
 
 `go tool cover -html=./system.cov -o coverage.html`
 
-# Bilding project
+# Building project
 
 `go build -o ./build/hello ./cmd/hello/main.go`
